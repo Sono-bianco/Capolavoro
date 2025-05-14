@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Biko-Regular';
+    src: url(../Font/Biko_Regular.otf);
+}
+
+@font-face {
+    font-family: 'Biko-Bold';
+    src: url(../Font/Biko_Bold.otf);
+}
+
+*{
+    font-family: 'Biko-Regular';
+}
+
+.odd a:link{
+    color: #deb64b;
+}
+
+.even a:link{
+    color: #111111;
+}
+
+.hrSectionSeparator{
+    color: #deb64b;
+    margin-top: -3px;
+    margin-bottom: -3px;
+}
+
+.even{
+    background-color: #deb64b;
+}
+
+.odd{
+    background-color: #111111;
+    color: #deb64b;
+}
+
+#imgQrCode{
+    height: 200px;
+    border-radius: 10px;
+}
+
+#hrVertical{
+    height: 200px;
+    width: 0px;
+    border: solid, 1px, #444444;
+}
+
+#divContacts{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.showing{
+    color: #deb64b;
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.notShowing{
+    color: #deb64b;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}

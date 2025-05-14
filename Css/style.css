@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Biko-Regular';
+    src: url(../Font/Biko_Regular.otf);
+}
+
+@font-face {
+    font-family: 'Biko-Bold';
+    src: url(../Font/Biko_Bold.otf);
+}
+
+*{
+    font-family: 'Biko-Regular';
+}
+
+.odd a:link{
+    color: #deb64b;
+}
+
+.even a:link{
+    color: #111111;
+}
+
+#main{
+    background-image: url(../Imgs/MainBackground.jpg);
+    height: 83%;
+    display: flex;
+    align-items: center;
+    border-top: 200px;
+}
+
+#main > div{
+    display: flex;
+    width: fit-content;
+}
+
+#presentation{
+    color: #deb64b;
+    max-width: 600px;
+    height: fit-content;
+    align-self: center;
+    text-align: center;
+}
+
+#presentation h1{
+    font-family: 'Biko-Bold';
+}
+
+#presentation div{
+    background-color: #00000099;
+    border-radius: 10px;
+}
+
+.hrSectionSeparator{
+    color: #deb64b;
+    margin-top: -3px;
+    margin-bottom: -3px;
+}
+
+.even{
+    background-color: #deb64b;
+}
+
+.odd{
+    background-color: #111111;
+    color: #deb64b;
+}
+
+#aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divAboutMeTexts{
+    max-width: 400px;
+}
+
+#divCarousel{
+    max-width: 330px;
+    min-width: 329px;
+}
+
+h3{
+    font-family: 'Biko-Bold';   
+    text-align: center;
+}
+
+#aboutMe > div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.divHobbiesTitle{
+    display: flex;
+}
+
+.divHobbies svg{
+    align-self: center;
+}
+
+.divHobbies a{
+    align-self: center;
+}
+
+.dropdownDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.dropdownDiv div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdownDiv img{
+    max-width: 300px;
+    border-radius: 10px;
+    border: solid, 2px, #deb64b;
+}
+
+.btnDrop{
+    color:#deb64b;
+}
+
+.btnDrop:hover{
+    background-color: #ffffff33;
+    border-radius: 1px;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+#divSubjectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.subjectCard{
+    background-color: #111111;
+    color: #deb64b;
+}
+
+#divAcademicJourney > div{
+    text-align: center;
+}
+
+#imgQrCode{
+    height: 200px;
+    border-radius: 10px;
+}
+
+#hrVertical{
+    height: 200px;
+    width: 0px;
+    border: solid, 1px, #444444;
+}
+
+#divContacts{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#btnSchool{
+    color: #deb64b;
+    background-color: #111111;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+.subjectCard:nth-child(2){
+    transition-delay: 250ms;
+}
+.subjectCard:nth-child(3){
+    transition-delay: 500ms;
+}
+.subjectCard:nth-child(4){
+    transition-delay: 750ms;
+}
+
+.showing{
+    color: #deb64b;
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.notShowing{
+    color: #deb64b;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
