@@ -16,8 +16,44 @@
     color: #deb64b;
 }
 
+h3{
+    font-family: 'Biko-Bold';   
+    text-align: center;
+}
+
 .even a:link{
     color: #111111;
+}
+
+#main{
+    background-image: url(../Imgs/Vallauri.png);
+    background-size: cover;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border-top: 200px;
+}
+
+#main > div{
+    display: flex;
+    width: fit-content;
+}
+
+#presentation{
+    color: #deb64b;
+    max-width: 600px;
+    height: fit-content;
+    align-self: center;
+    text-align: center;
+}
+
+#presentation h1{
+    font-family: 'Biko-Bold';
+}
+
+#presentation{
+    background-color: #00000099;
+    border-radius: 10px;
 }
 
 .hrSectionSeparator{
@@ -40,7 +76,7 @@
 }
 
 .carousel-item{
-    border: solid, 3px, #111111;
+    border: solid, 3px, #deb64b;
 }
 
 #school{
@@ -60,14 +96,16 @@
     min-width: 329px;
 }
 
-#projects-container{
+#projects-container > div{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .card{
-    background-color: #deb64b;
+    color: #deb64b;
+    background-color: #111111;
 }
 
 #imgQrCode{
