@@ -60,6 +60,16 @@
     min-width: 329px;
 }
 
+#projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #deb64b;
+}
+
 #imgQrCode{
     height: 200px;
     border-radius: 10px;
