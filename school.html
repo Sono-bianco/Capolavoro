@@ -31,7 +31,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#school">About my school</a> <!-- change href to these -->
+                <a class="nav-link active" href="#school-container">About my school</a> <!-- change href to these -->
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#hobbies">Olympics</a>
@@ -45,8 +45,51 @@
     </nav>
 
     <!-- School -->
-    <div id="school" class="container-fluid even">
-        
+    <hr class="hrSectionSeparator">
+    <div id="school-container" class="container-fluid even">
+      <div id="school" class="container py-3 row">
+        <div id="divSchoolTexts">
+          <h3 class="hidden">
+            About my school
+          </h3>
+          <div class="hidden">
+            The Vallauri Institute was founded in 1962 in Fossano and became 
+            independent in 1969. Over the years, it expanded with programs in Electrotechnics, 
+            Computer Science, and a Technological Scientific High School. 
+            Named after Giancarlo Vallauri in 1981, it obtained quality certifications and accreditation 
+            for professional training. It collaborates with companies and universities, offers 
+            evening and international courses, and excels in national competitions. It is recognized for its excellence 
+            and innovation in education. This all wouldn't be possible without a 
+            principal as good as our beloved Paolo Cortese.
+          </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="ms-lg-3 hidden" id="divCarousel">
+          <div id="carouselExampleAutoplaying" class="carousel slide mt-2" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imgs/School.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imgs/School1.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imgs/School2.jpg" class="d-block w-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Olympics -->

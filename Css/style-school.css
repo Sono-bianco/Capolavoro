@@ -35,6 +35,31 @@
     color: #deb64b;
 }
 
+#divSchoolTexts{
+    max-width: 400px;
+}
+
+.carousel-item{
+    border: solid, 3px, #111111;
+}
+
+#school{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#school-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCarousel{
+    max-width: 330px;
+    min-width: 329px;
+}
+
 #imgQrCode{
     height: 200px;
     border-radius: 10px;

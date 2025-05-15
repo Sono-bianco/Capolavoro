@@ -80,6 +80,10 @@
     min-width: 329px;
 }
 
+.carousel-item{
+    border: solid, 3px, #111111;
+}
+
 h3{
     font-family: 'Biko-Bold';   
     text-align: center;
